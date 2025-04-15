@@ -1,0 +1,35 @@
+- name: "type: bug"
+  color: "d73a4a"
+  description: "Something isn't working"
+
+- name: "type: feature"
+  color: "1d76db"
+  description: "A new feature or capability"
+
+- name: "type: enhancement"
+  color: "a2eeef"
+  description: "New feature or improvement"
+
+- name: "type: chore"
+  color: "cfd3d7"
+  description: "Routine maintenance or technical task"
+
+- name: "type: task"
+  color: "ededed"
+  description: "General task not classified elsewhere"
+
+- name: "type: tests"
+  color: "5319e7"
+  description: "Tests: unit, integration, or e2e"
+
+- name: "type: documentation"
+  color: "0075ca"
+  description: "Documentation updates or improvements"
+
+- name: "type: question"
+  color: "d876e3"
+  description: "Clarification or further info requested"
+
+- name: "type: release"
+  color: "5319e7"
+  description: "Tracks tasks or issues related to a new software release"

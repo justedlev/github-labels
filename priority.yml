@@ -1,0 +1,12 @@
+- name: "priority: high"
+  color: "e11d21"
+  description: "High impact or urgent task"
+
+- name: "priority: medium"
+  color: "fbca04"
+  description: "Moderate priority task"
+
+- name: "priority: low"
+  color: "0e8a16"
+  description: "Low priority or non-urgent"
+  
