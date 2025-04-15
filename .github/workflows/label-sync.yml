@@ -30,3 +30,4 @@ jobs:
             ${{ env.REMOTE_CONFIG_URL }}/priority.yml
             ${{ env.REMOTE_CONFIG_URL }}/status.yml
             ${{ env.REMOTE_CONFIG_URL }}/type.yml
+            ${{ env.REMOTE_CONFIG_URL }}/area.yml
