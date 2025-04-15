@@ -17,7 +17,7 @@ jobs:
     name: 🏷️ Sync Labels from YAML
     runs-on: ubuntu-latest
     env:
-      REMOTE_CONFIG_URL: https://raw.githubusercontent.com/${{ github.actor }}/${{ github.repository }}/main
+      REMOTE_CONFIG_URL: https://raw.githubusercontent.com/${{ github.repository }}/main
     steps:
       - name: 🔁 Sync GitHub labels
         uses: EndBug/label-sync@v2
