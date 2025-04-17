@@ -27,8 +27,8 @@ jobs:
         with:
           delete-other-labels: true
           config-file: |
-            language.yml
-            priority.yml
-            status.yml
-            type.yml
-            area.yml
+            ./language.yml
+            ./priority.yml
+            ./status.yml
+            ./type.yml
+            ./area.yml
