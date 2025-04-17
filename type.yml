@@ -3,7 +3,7 @@
   description: "Something isn't working"
 
 - name: "type: feature"
-  color: "1d76db"
+  color: "0e8a16"
   description: "A new feature or capability"
 
 - name: "type: enhancement"
@@ -11,18 +11,18 @@
   description: "New feature or improvement"
 
 - name: "type: chore"
-  color: "cfd3d7"
+  color: "ededed"
   description: "Routine maintenance or technical task"
 
 - name: "type: task"
   color: "ededed"
   description: "General task not classified elsewhere"
 
-- name: "type: tests"
+- name: "type: test"
   color: "5319e7"
   description: "Tests: unit, integration, or e2e"
 
-- name: "type: documentation"
+- name: "type: docs"
   color: "0075ca"
   description: "Documentation updates or improvements"
 

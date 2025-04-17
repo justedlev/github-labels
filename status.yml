@@ -1,23 +1,19 @@
 - name: "status: in progress"
-  color: "0052cc"
-  description: "Work is currently being done"
+  color: "0e8a16"
+  description: "Work is currently in progress"
 
 - name: "status: blocked"
   color: "d93f0b"
   description: "Blocked by another task or issue"
 
-- name: "status: ready for review"
-  color: "5319e7"
-  description: "Awaiting code or product review"
-
 - name: "status: done"
-  color: "0e8a16"
-  description: "Task has been completed"
+  color: "006b75"
+  description: "Task completed"
 
 - name: "status: help wanted"
   color: "008672"
   description: "Looking for community help"
 
 - name: "status: blocked"
-  color: "e11d21"
-  description: "Blocked by something else"
+  color: "d93f0b"
+  description: "Blocked due to external reasons"
