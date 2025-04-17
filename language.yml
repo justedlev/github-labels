@@ -1,3 +1,19 @@
 - name: "lang: java"
   color: "b07219"
   description: "Java-specific code or logic"
+
+- name: "lang: other"
+  color: "cccccc"
+  description: "Other languages"
+
+- name: "lang: typescript"
+  color: "2b7489"
+  description: "TypeScript code"
+
+- name: "lang: python"
+  color: "3572A5"
+  description: "Python code"
+
+- name: "lang: javascript"
+  color: "f1e05a"
+  description: "JavaScript code"
