@@ -33,3 +33,7 @@
 - name: "type: release"
   color: "5319e7"
   description: "Tracks tasks or issues related to a new software release"
+
+- name: "type: refactor"
+  color: "c5def5"
+  description: "Code refactoring without new functionality"
