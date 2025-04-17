@@ -19,6 +19,9 @@ jobs:
     env:
       REMOTE_CONFIG_URL: https://raw.githubusercontent.com/${{ github.repository }}/main
     steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
       - name: 🔁 Sync GitHub labels
         uses: EndBug/label-sync@v2
         env:
