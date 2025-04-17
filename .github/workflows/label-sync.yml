@@ -16,8 +16,6 @@ jobs:
   sync-labels:
     name: 🏷️ Sync Labels from YAML
     runs-on: ubuntu-latest
-    env:
-      REMOTE_CONFIG_URL: https://raw.githubusercontent.com/${{ github.repository }}/main
     steps:
       - name: 📥 Checkout code
         uses: actions/checkout@v4
@@ -29,8 +27,8 @@ jobs:
         with:
           delete-other-labels: true
           config-file: |
-            ${{ env.REMOTE_CONFIG_URL }}/language.yml
-            ${{ env.REMOTE_CONFIG_URL }}/priority.yml
-            ${{ env.REMOTE_CONFIG_URL }}/status.yml
-            ${{ env.REMOTE_CONFIG_URL }}/type.yml
-            ${{ env.REMOTE_CONFIG_URL }}/area.yml
+            language.yml
+            priority.yml
+            status.yml
+            type.yml
+            area.yml
