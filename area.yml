@@ -3,7 +3,7 @@
   description: "Configuration files or settings (YAML, env, props)"
 
 - name: "area: spring"
-  color: "f89c0e"
+  color: "92d557"
   description: "Spring Boot or Spring Framework"
 
 - name: "area: ci/cd"
