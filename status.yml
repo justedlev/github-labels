@@ -17,3 +17,11 @@
 - name: "status: blocked"
   color: "d93f0b"
   description: "Blocked due to external reasons"
+
+- name: "status: todo"
+  color: "fef2c0"
+  description: "Planned, not yet started"
+
+- name: "status: review"
+  color: "1d76db"
+  description: "Requires code review"
