@@ -13,3 +13,19 @@
 - name: "area: docker"
   color: "2496ed"
   description: "Dockerfiles, compose files, and container config"
+
+- name: "area: api"
+  color: "1d76db"
+  description: "Related to APIs or contracts"
+
+- name: "area: ui"
+  color: "fbca04"
+  description: "Affects the user interface"
+
+- name: "area: db"
+  color: "006b75"
+  description: "Involves database changes or migrations"
+
+- name: "area: devops"
+  color: "5319e7"
+  description: "Infrastructure, CI/CD, DevOps-related work"
